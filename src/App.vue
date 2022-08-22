@@ -1,10 +1,20 @@
 <template>
   <div id="app">
-   
+    <template-fun></template-fun>
   </div>
 </template>
 
 <script>
+import TemplateFun from '@/components/TemplateFun.vue';
+
+
+
+export default {
+ 
+  components: {
+    TemplateFun
+  },
+};
 
 </script>
 
